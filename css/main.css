@@ -1,0 +1,38 @@
+p{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.5s;
+    border: 2px solid black;
+}
+
+p.bg-success:hover{
+    background-color: rgb(215, 253, 198);
+}
+
+.top-msg{
+    border: none;
+}
+
+body{
+    font-family: 'Hind', sans-serif;
+    background: url(../img/background1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content{
+    /* background-color: rgba(116, 116, 116, 0.3); */
+    font-size: 18px;
+    border-radius:20px;
+    padding: 35px;
+    border: 3px solid rgb(48, 48, 48);
+
+    background: #e2e2e2; /* Old browsers */
+    background: -moz-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+    /* box-shadow: 0px 0px 20px black; */
+}
+
